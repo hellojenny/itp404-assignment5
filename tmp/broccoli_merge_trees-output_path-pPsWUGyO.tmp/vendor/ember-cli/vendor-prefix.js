@@ -1,0 +1,1 @@
+/Users/jenny/Desktop/Databases/moderntech/itp404/tmp/config_replace-output_path-7dPc66Z0.tmp/vendor-prefix.js

@@ -1,0 +1,8 @@
+{{#each model as |subreddit|}}
+	<h2><a href="{{subreddit.data.url}}" target="_blank">{{subreddit.data.title}}</a></h2>
+			<p>Score: {{subreddit.data.score}}</p>
+			<p>Comments: {{subreddit.data.num_comments}}</p>
+			<p>Archived: {{#if subreddit.data.archived}}Yes{{else}}No{{/if}}</p>
+	{{else}}
+	<p>Doesn't exist.</p>
+{{/each}}

@@ -1,0 +1,8 @@
+<h4>Results</h4>
+{{outlet}}
+
+<ul class="results">
+	{{#each model.results as |result|}}
+		{{#song-item song=result}}{{/song-item}}
+	{{/each}}
+</ul>
